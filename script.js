@@ -1,5 +1,5 @@
 
-Image
+
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays2460601000));
@@ -8,7 +8,7 @@ function setCookie(cname, cvalue, exdays) {
 }
 
 function getCookie(cname) {
-  let name = cname + "=";
+  let name = cname + "=";   
   let decodedCookie = decodeURIComponent(document.cookie);
   let ca = decodedCookie.split(';');
   for(let i = 0; i <ca.length; i++) {
